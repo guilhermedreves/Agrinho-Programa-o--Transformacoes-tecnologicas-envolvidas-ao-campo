@@ -1,0 +1,61 @@
+:root{
+    --cor-de-fundo-titulo: #00B9D2;
+    --cor-de-fundo-texto: #00D1FF;
+    --cor-de-fundo-topicos: #5BAABB;
+    --cor-do-botao-video: #00E55C;
+}
+
+.titulo{
+    background-color: var(--cor-de-fundo-titulo);
+    text-align: center;
+    margin-top: -22px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 4%;
+}
+
+.plano-topicos{
+    background-color: var(--cor-de-fundo-topicos);
+    margin-top: -22px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 4%;
+    overflow: hidden;
+}
+
+.topicos{
+    color: maroon;
+    text-align: center;
+}
+
+.top-3{
+    font-size: 24px;
+}
+
+.imagem{
+    max-width: 100%;
+    height: auto;
+}
+
+.plano-texto{
+    background-color: var(--cor-de-fundo-texto);
+    margin-top: -22px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 4%;
+}
+
+.link-video{
+    background-color: var(--cor-do-botao-video);
+    padding: 12px 15px;
+}
+
+.referencias{
+    text-align: center;
+}
+
+.desenvolvido{
+    text-align: center;
+    border: 2px solid black;
+}
+            
